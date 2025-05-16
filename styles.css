@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff7e6; /* Jumia-style background */
+}
+
+.hero-banner {
+  position: relative;
+  padding: 2rem;
+  background-color: orange;
+  text-align: center;
+  overflow: hidden;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.product {
+  width: 120px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.promo-text h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.promo-text p {
+  color: white;
+  font-size: 1.2rem;
+}
